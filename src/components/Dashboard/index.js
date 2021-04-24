@@ -2,7 +2,7 @@ import { Container } from "../Container";
 import { MainComponentWrapper } from "../MainComponentWrapper";
 import { MainContainer } from "../MainContainer";
 import { Menu } from "../Menu";
-import fakechart from "../../images/fakedChart.png";
+import fakechart from "../../images/Frame.svg";
 import { Greeting, Header, Info, Input } from "./styled";
 import SideBar from "../SideBar/index";
 
@@ -19,7 +19,7 @@ export const Dashboard = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container gridArea="dash">
-          <img width="100%" src={fakechart}></img>
+          <div width={"100%"} src={fakechart} />
         </Container>
       </MainComponentWrapper>
       <SideBar />
