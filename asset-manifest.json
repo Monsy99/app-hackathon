@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/app-hackathon/static/js/main.c11d10b4.chunk.js",
-    "main.js.map": "/app-hackathon/static/js/main.c11d10b4.chunk.js.map",
+    "main.js": "/app-hackathon/static/js/main.b8300de9.chunk.js",
+    "main.js.map": "/app-hackathon/static/js/main.b8300de9.chunk.js.map",
     "runtime-main.js": "/app-hackathon/static/js/runtime-main.60731e3a.js",
     "runtime-main.js.map": "/app-hackathon/static/js/runtime-main.60731e3a.js.map",
     "static/js/2.d97527a9.chunk.js": "/app-hackathon/static/js/2.d97527a9.chunk.js",
@@ -30,6 +30,6 @@
   "entrypoints": [
     "static/js/runtime-main.60731e3a.js",
     "static/js/2.d97527a9.chunk.js",
-    "static/js/main.c11d10b4.chunk.js"
+    "static/js/main.b8300de9.chunk.js"
   ]
 }
