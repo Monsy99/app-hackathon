@@ -18,6 +18,10 @@ export const Button = styled.button`
   outline: none;
   color: ${({ theme }) => theme.colors.white};
   background-color: ${({ theme }) => theme.colors.governorBay};
+  &:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+  }
   ${(props) =>
     props.reversed &&
     css`

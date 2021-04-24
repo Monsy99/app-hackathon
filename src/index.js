@@ -8,6 +8,7 @@ import { theme } from "./theme";
 const GlobalStyle = createGlobalStyle`
 body {
   margin: 0;
+  background-color:${({ theme }) => theme.colors.whisper};
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
