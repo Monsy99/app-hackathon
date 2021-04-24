@@ -19,7 +19,7 @@ export const Dashboard = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container gridArea="dash">
-          <img alt="banking chart" width={"1000px"} src={fakechart} />
+          <img width={"100%"} src={fakechart} />
         </Container>
       </MainComponentWrapper>
       <SideBar />

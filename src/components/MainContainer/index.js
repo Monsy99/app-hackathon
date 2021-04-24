@@ -5,5 +5,5 @@ export const MainContainer = styled.div`
   margin: 0;
   padding: 0;
   grid-template-columns: 19vw auto 19vw;
-  grid-template-rows: 100vh;
+  // grid-template-rows: 100vh;
 `;
