@@ -4,6 +4,8 @@ import { MainContainer } from "../MainContainer";
 import { Menu } from "../Menu";
 import fakechart from "../../images/fakedChart.png";
 import { Greeting, Header, Info, Input } from "./styled";
+import SideBar from "../SideBar/index";
+
 export const Dashboard = () => {
   return (
     <MainContainer>
@@ -17,9 +19,10 @@ export const Dashboard = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container gridArea="dash">
-          <img width={950} src={fakechart}></img>
+          <img width="100%" src={fakechart}></img>
         </Container>
       </MainComponentWrapper>
+      <SideBar />
     </MainContainer>
   );
 };

@@ -7,5 +7,8 @@ export const theme = {
     silver: "#C4C4C4",
     scorpion: "5F5F5F",
     whisper: "#F5F6FA",
+    hunter: "#D6EBFF",
+    light: "#F0F1FE",
+    green: "#29CC97",
   },
 };
