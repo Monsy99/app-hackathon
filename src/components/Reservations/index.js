@@ -42,7 +42,7 @@ export const Reservations = () => {
           <Logo />
           <Avator src={avator} />
         </LogoContainer>
-        <DailyReport>
+        <DailyReport marginTop={"52px"}>
           <Title>Daily summary</Title>
           <Hr />
           <ReportItem>
@@ -59,7 +59,6 @@ export const Reservations = () => {
             <Info>Registered users</Info>
             <Figure color="black">12 875</Figure>
           </ReportItem>
-          <Hr />
         </DailyReport>
       </SideBarContainer>
     </MainContainer>
