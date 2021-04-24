@@ -10,5 +10,6 @@ export const theme = {
     hunter: "#D6EBFF",
     light: "#F0F1FE",
     green: "#29CC97",
+    blue: "#4144C1",
   },
 };

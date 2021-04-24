@@ -2,8 +2,7 @@ import styled from "styled-components";
 import logo from "../../images/logo.svg";
 
 export const SideBarContainer = styled.div`
-  margin: 45px 0 0 0;
-  padding-right: 20px;
+  margin: 45px 20px 0 0;
 `;
 
 export const LogoContainer = styled.div`
@@ -29,8 +28,9 @@ export const Logo = styled.div`
 `;
 
 export const Avator = styled.img`
-  height: 50px;
-  width: 50px;
+  height: ${({ height }) => height};
+  width: ${({ width }) => width};
+  margin-right: 5px;
 `;
 
 export const DailyReport = styled.div`
@@ -41,7 +41,8 @@ export const DailyReport = styled.div`
   border: none;
   padding: 10px;
   border-radius: 24px;
-  margin-top: 50px;
+  margin-top: ${({ marginTop }) => marginTop};
+  margin-bottom: 20px;
   background-color: ${({ theme }) => theme.colors.white};
 `;
 

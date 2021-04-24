@@ -12,15 +12,16 @@ import {
 } from "./styled";
 import avator from "../../images/avator.svg";
 import { Info } from "../Dashboard/styled";
+import Reservations from "./Reservations";
 
 const SideBar = () => {
   return (
     <SideBarContainer>
       <LogoContainer>
         <Logo />
-        <Avator src={avator} />
+        <Avator src={avator} width="45px" height="45px" />
       </LogoContainer>
-      <DailyReport>
+      <DailyReport marginTop="50px">
         <Title>Daily report</Title>
         <Hr />
         <ReportItem>
@@ -43,6 +44,8 @@ const SideBar = () => {
           <Figure color="black">143</Figure>
         </ReportItem>
       </DailyReport>
+      <Info>Live reservations</Info>
+      <Reservations />
     </SideBarContainer>
   );
 };
