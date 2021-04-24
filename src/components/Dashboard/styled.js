@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import search from "../../images/search.svg";
 
 export const Header = styled.header`
   display: flex;

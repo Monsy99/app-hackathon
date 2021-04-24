@@ -1,12 +1,9 @@
-import { Container } from "../Container";
+import { Greeting, Header, Info, Input } from "../Dashboard/styled";
 import { MainComponentWrapper } from "../MainComponentWrapper";
 import { MainContainer } from "../MainContainer";
 import { Menu } from "../Menu";
-import fakechart from "../../images/Frame.svg";
-import { Greeting, Header, Info, Input } from "./styled";
-import SideBar from "../SideBar/index";
 
-export const Dashboard = () => {
+export const Services = () => {
   return (
     <MainContainer>
       <Menu />
@@ -18,11 +15,7 @@ export const Dashboard = () => {
           </div>
           <Input placeholder="Search for service"></Input>
         </Header>
-        <Container gridArea="dash">
-          <img alt="banking chart" width={"1000px"} src={fakechart} />
-        </Container>
       </MainComponentWrapper>
-      <SideBar />
     </MainContainer>
   );
 };
