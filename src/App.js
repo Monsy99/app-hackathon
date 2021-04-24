@@ -1,12 +1,12 @@
 import { Redirect, Route, Switch } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Dashboard } from "./components/Dashboard";
 import { Reservations } from "./components/Reservations";
 import { Services } from "./components/Services";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/dashboard" exact>
           <Dashboard />
@@ -22,7 +22,7 @@ function App() {
           <Redirect to="/dashboard" />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
