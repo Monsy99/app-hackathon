@@ -18,7 +18,11 @@ export const Reservations = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container>
-          <img width={"1000px"} src={reservations}></img>
+          <img
+            alt="reservations table"
+            width={"1000px"}
+            src={reservations}
+          ></img>
         </Container>
       </MainComponentWrapper>
     </MainContainer>

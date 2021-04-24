@@ -16,17 +16,24 @@ export const Button = styled.button`
   font-weight: 700;
   font-size: 16px;
   outline: none;
+  &:hover {
+    cursor: not-allowed;
+  }
   color: ${({ theme }) => theme.colors.white};
   background-color: ${({ theme }) => theme.colors.governorBay};
-  &:hover {
-    filter: brightness(1.1);
-    cursor: pointer;
-  }
-  ${(props) =>
-    props.reversed &&
+  ${({ reversed }) =>
+    reversed &&
     css`
       color: ${({ theme }) => theme.colors.governorBay};
       background-color: ${({ theme }) => theme.colors.white};
+    `}
+  ${({ active }) =>
+    active &&
+    css`
+      &:hover {
+        filter: brightness(1.2);
+        cursor: pointer;
+      }
     `}
 `;
 export const ButtonImg = styled.img`

@@ -41,6 +41,7 @@ export const Panel = () => {
   return (
     <PanelWrapper>
       <Button
+        active
         onClick={() => {
           history.push("/dashboard");
         }}
@@ -50,6 +51,7 @@ export const Panel = () => {
         Dashboard
       </Button>
       <Button
+        active
         onClick={() => {
           history.push("/reservations");
         }}
@@ -63,6 +65,7 @@ export const Panel = () => {
         Users
       </Button>
       <Button
+        active
         onClick={() => {
           history.push("/services");
         }}
