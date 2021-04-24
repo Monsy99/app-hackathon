@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const MenuWrapper = styled.div`
+  box-sizing: border-box;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
