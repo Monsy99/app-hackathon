@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/app-hackathon/static/js/main.607a90c9.chunk.js",
-    "main.js.map": "/app-hackathon/static/js/main.607a90c9.chunk.js.map",
+    "main.js": "/app-hackathon/static/js/main.c11d10b4.chunk.js",
+    "main.js.map": "/app-hackathon/static/js/main.c11d10b4.chunk.js.map",
     "runtime-main.js": "/app-hackathon/static/js/runtime-main.60731e3a.js",
     "runtime-main.js.map": "/app-hackathon/static/js/runtime-main.60731e3a.js.map",
     "static/js/2.d97527a9.chunk.js": "/app-hackathon/static/js/2.d97527a9.chunk.js",
@@ -10,18 +10,18 @@
     "static/js/3.b25a77d5.chunk.js.map": "/app-hackathon/static/js/3.b25a77d5.chunk.js.map",
     "index.html": "/app-hackathon/index.html",
     "static/js/2.d97527a9.chunk.js.LICENSE.txt": "/app-hackathon/static/js/2.d97527a9.chunk.js.LICENSE.txt",
-    "static/media/Frame.20255c49.svg": "/app-hackathon/static/media/Frame.20255c49.svg",
-    "static/media/Reservations.a89fac4e.svg": "/app-hackathon/static/media/Reservations.a89fac4e.svg",
+    "static/media/Frame.6139b1e0.svg": "/app-hackathon/static/media/Frame.6139b1e0.svg",
+    "static/media/Reservations.d10db8fa.svg": "/app-hackathon/static/media/Reservations.d10db8fa.svg",
     "static/media/avator.98b591c5.svg": "/app-hackathon/static/media/avator.98b591c5.svg",
     "static/media/exit.5a9cfb56.svg": "/app-hackathon/static/media/exit.5a9cfb56.svg",
     "static/media/home.f8751d2f.svg": "/app-hackathon/static/media/home.f8751d2f.svg",
-    "static/media/homeWhite.14ec2166.svg": "/app-hackathon/static/media/homeWhite.14ec2166.svg",
+    "static/media/homeWhite.e1430f33.svg": "/app-hackathon/static/media/homeWhite.e1430f33.svg",
     "static/media/insurance.e7e30f61.svg": "/app-hackathon/static/media/insurance.e7e30f61.svg",
     "static/media/legal.5b0daa2b.svg": "/app-hackathon/static/media/legal.5b0daa2b.svg",
     "static/media/logo.2a863e46.svg": "/app-hackathon/static/media/logo.2a863e46.svg",
-    "static/media/reservationsIcon.a04fc824.svg": "/app-hackathon/static/media/reservationsIcon.a04fc824.svg",
+    "static/media/reservationsIcon.7cfd4d6d.svg": "/app-hackathon/static/media/reservationsIcon.7cfd4d6d.svg",
     "static/media/reservationsWhite.ea62f944.svg": "/app-hackathon/static/media/reservationsWhite.ea62f944.svg",
-    "static/media/services.cc072da1.svg": "/app-hackathon/static/media/services.cc072da1.svg",
+    "static/media/services.ba55c905.svg": "/app-hackathon/static/media/services.ba55c905.svg",
     "static/media/servicesWhite.cfe4d958.svg": "/app-hackathon/static/media/servicesWhite.cfe4d958.svg",
     "static/media/settings.f9c5a24f.svg": "/app-hackathon/static/media/settings.f9c5a24f.svg",
     "static/media/silverCircle.c8428960.svg": "/app-hackathon/static/media/silverCircle.c8428960.svg",
@@ -30,6 +30,6 @@
   "entrypoints": [
     "static/js/runtime-main.60731e3a.js",
     "static/js/2.d97527a9.chunk.js",
-    "static/js/main.607a90c9.chunk.js"
+    "static/js/main.c11d10b4.chunk.js"
   ]
 }
