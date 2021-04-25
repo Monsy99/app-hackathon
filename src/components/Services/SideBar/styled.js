@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   height: ${({ height }) => height};
 `;
 
-export const Header = styled.h3`
+export const Header = styled.h2`
   font-weight: 700;
   line-height: 33px;
   color: ${({ theme }) => theme.colors.black};
@@ -19,9 +19,11 @@ export const SelectWrapper = styled.div`
 
 export const Select = styled.select`
   border: none;
-  width: 90%;
+  width: 100%;
+  height: 50px;
   line-height: 19px;
   font-weight: bold;
+  font-size: 18px;
   option {
     font-weight: bold;
     color: ${({ theme }) => theme.colors.black};
@@ -29,11 +31,13 @@ export const Select = styled.select`
 `;
 
 export const Input = styled.input`
-  width: 92%;
+  width: 95%;
+  height: 50px;
   line-height: 19px;
   font-weight: bold;
   border-radius: 10px;
   padding: 10px;
+  font-size: 18px;
   border: solid thin ${({ theme }) => theme.colors.mercury};
   &::placeholder {
     color: ${({ theme }) => theme.colors.scorpion};
@@ -43,7 +47,7 @@ export const Input = styled.input`
 export const TextArea = styled.textarea`
   padding: 10px;
   border-radius: 10px;
-  width: 92%;
+  width: 95%;
   height: 100px;
   border: solid thin ${({ theme }) => theme.colors.mercury};
 `;
