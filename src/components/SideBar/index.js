@@ -36,6 +36,11 @@ const SideBar = () => {
         <Hr />
         <ReportItem>
           <Info>Total users</Info>
+          <Figure color="black">2344</Figure>
+        </ReportItem>
+        <Hr />
+        <ReportItem>
+          <Info>Available venues</Info>
           <Figure color="black">162</Figure>
         </ReportItem>
         <Hr />

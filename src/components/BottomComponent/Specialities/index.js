@@ -11,13 +11,14 @@ import {
   SpecialistsCard,
   TopServicesCard,
 } from "./styled";
-import avator from "../../../images/avator.svg";
+import arrowDown from "../../../images/arrowDown.svg";
 import charater1 from "../../../images/character1.svg";
 import charater2 from "../../../images/character2.svg";
 import charater3 from "../../../images/character3.svg";
 import anna from "../../../images/anna.svg";
 import mike from "../../../images/mike.svg";
 import lizzy from "../../../images/lizzy.svg";
+import { ArrowDown, TextAlignCenter } from "../../Reservations/styled";
 
 const BottomComponent = () => {
   return (
@@ -63,6 +64,9 @@ const BottomComponent = () => {
               1023
             </ReservationItem>
           </Reservation>
+          <TextAlignCenter>
+            <ArrowDown src={arrowDown}></ArrowDown>
+          </TextAlignCenter>
         </SpecialistsCard>
       </div>
       <div style={{ marginLeft: "20px" }}>

@@ -14,6 +14,7 @@ import venue1 from "../../images/venue1.svg";
 import venue2 from "../../images/venue2.svg";
 import venue3 from "../../images/venue3.svg";
 import venue4 from "../../images/venue4.svg";
+import arrowDown from "../../images/arrowDown.svg";
 import reservations from "../../images/Reservations.svg";
 import {
   Avator,
@@ -27,13 +28,12 @@ import {
   Title,
 } from "../SideBar/styled";
 import {
-  Button,
   Reservation,
   ReservationItem,
   ReservationsCard,
 } from "../SideBar/Reservations/styled";
-import { Label, LabelWrapper } from "../Services/styled";
-import { Flex, VenueCard, VenuesWrapper } from "./styled";
+import { Label } from "../Services/styled";
+import { ArrowDown, Flex, TextAlignCenter, VenueCard } from "./styled";
 import { BottomComponentWrapper } from "../BottomComponent/Specialities/styled";
 
 export const Reservations = () => {
@@ -93,8 +93,8 @@ export const Reservations = () => {
             <Figure color="black">12 875</Figure>
           </ReportItem>
         </DailyReport>
-        <Info>Live reservations</Info>
-        <ReservationsCard marginTop="10px">
+        <ReservationsCard textAlign marginTop="10px">
+          <Title textAlign>Revenue by employee</Title>
           <Reservation>
             <ReservationItem textAlign="left">Name</ReservationItem>
             <ReservationItem textAlign="right">Revenue</ReservationItem>
@@ -147,6 +147,9 @@ export const Reservations = () => {
               + &#163; 4009
             </Figure>
           </Reservation>
+          <TextAlignCenter>
+            <ArrowDown src={arrowDown}></ArrowDown>
+          </TextAlignCenter>
         </ReservationsCard>
       </SideBarContainer>
     </MainContainer>

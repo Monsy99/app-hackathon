@@ -7,10 +7,17 @@ export const VenuesWrapper = styled.div`
 `;
 export const VenueCard = styled.img`
   margin-right: 32px;
-  height: 214px;
+  height: 227px;
 `;
 export const Flex = styled.div`
   display: flex;
   margin-top: 24px;
   margin-bottom: 12px;
+`;
+export const ArrowDown = styled.img`
+  width: 18px;
+  margin: 30px auto 0;
+`;
+export const TextAlignCenter = styled.div`
+  text-align: center;
 `;

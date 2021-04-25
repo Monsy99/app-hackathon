@@ -51,6 +51,11 @@ export const Title = styled.h4`
   line-height: 10px;
   color: ${({ theme, color }) =>
     color ? theme.colors[color] : theme.colors.black};
+  ${({ textAlign }) =>
+    textAlign &&
+    css`
+      text-align: center;
+    `}
 `;
 
 export const Hr = styled.hr`
