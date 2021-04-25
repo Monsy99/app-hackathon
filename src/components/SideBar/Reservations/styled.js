@@ -18,6 +18,8 @@ export const Reservation = styled.div`
 
 export const ReservationItem = styled.div`
   flex: 1;
+  color: ${({ theme, color }) =>
+    color ? theme.colors[color] : theme.colors.black};
   text-align: ${({ textAlign }) => textAlign};
 `;
 
