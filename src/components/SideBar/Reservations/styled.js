@@ -13,7 +13,7 @@ export const Reservation = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
-  line-height: 30px;
+  line-height: 35px;
 `;
 
 export const ReservationItem = styled.div`

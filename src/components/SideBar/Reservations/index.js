@@ -30,6 +30,12 @@ const Reservations = () => {
       </Reservation>
       <Hr />
       <Reservation>
+        <Avator src={avator} width="20px" height="20px" />
+        <ReservationItem>Josh Tracey</ReservationItem>
+        <ReservationItem textAlign="right">16.04.2020</ReservationItem>
+      </Reservation>
+      <Hr />
+      <Reservation>
         <ReservationItem />
         <Button padding="5px" width="100px" height="30px">
           Show all
