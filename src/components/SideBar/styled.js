@@ -39,7 +39,7 @@ export const DailyReport = styled.div`
   align-items: ${(alignItems) => alignItems};
   justify-content: ${(justifyContent) => justifyContent};
   border: none;
-  padding: 10px;
+  padding: 20px;
   border-radius: 24px;
   margin-top: ${({ marginTop }) => marginTop};
   margin-bottom: 20px;
