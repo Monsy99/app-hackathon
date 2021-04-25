@@ -34,6 +34,7 @@ import {
 } from "../SideBar/Reservations/styled";
 import { Label, LabelWrapper } from "../Services/styled";
 import { Flex, VenueCard, VenuesWrapper } from "./styled";
+import { BottomComponentWrapper } from "../BottomComponent/Specialities/styled";
 
 export const Reservations = () => {
   return (
@@ -58,12 +59,12 @@ export const Reservations = () => {
             <Info>Show all</Info>
           </Label>
         </Flex>
-        <VenuesWrapper>
+        <BottomComponentWrapper>
           <VenueCard src={venue1}></VenueCard>
           <VenueCard src={venue2}></VenueCard>
           <VenueCard src={venue3}></VenueCard>
           <VenueCard src={venue4}></VenueCard>
-        </VenuesWrapper>
+        </BottomComponentWrapper>
       </MainComponentWrapper>
       <SideBarContainer>
         <LogoContainer>
@@ -91,7 +92,6 @@ export const Reservations = () => {
             <Info>Registered users</Info>
             <Figure color="black">12 875</Figure>
           </ReportItem>
-          <Hr />
         </DailyReport>
         <Info>Live reservations</Info>
         <ReservationsCard marginTop="10px">

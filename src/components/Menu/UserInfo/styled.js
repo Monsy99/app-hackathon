@@ -7,6 +7,7 @@ export const UserWrapper = styled.div`
 
 export const UserAvatar = styled.img`
   width: 48px;
+  border-radius: 10px;
   margin-right: 11px;
 `;
 export const UserName = styled.p`

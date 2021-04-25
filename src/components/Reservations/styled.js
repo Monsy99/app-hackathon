@@ -6,7 +6,8 @@ export const VenuesWrapper = styled.div`
   margin-bottom: 20px;
 `;
 export const VenueCard = styled.img`
-  height: 204px;
+  margin-right: 32px;
+  height: 214px;
 `;
 export const Flex = styled.div`
   display: flex;

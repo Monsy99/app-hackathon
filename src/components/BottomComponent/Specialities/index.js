@@ -15,44 +15,53 @@ import avator from "../../../images/avator.svg";
 import charater1 from "../../../images/character1.svg";
 import charater2 from "../../../images/character2.svg";
 import charater3 from "../../../images/character3.svg";
+import anna from "../../../images/anna.svg";
+import mike from "../../../images/mike.svg";
+import lizzy from "../../../images/lizzy.svg";
 
 const BottomComponent = () => {
   return (
     <BottomComponentWrapper>
       <div>
-        <Info>To Specialists</Info>
+        <Info>Top Specialists</Info>
         <SpecialistsCard marginTop="10px">
           <Reservation>
             <ReservationItem textAlign="left">Name</ReservationItem>
-            <ReservationItem>Specialization</ReservationItem>
+            <ReservationItem textAlign="right">Specialization</ReservationItem>
             <ReservationItem textAlign="center">Visits</ReservationItem>
           </Reservation>
           <Hr />
           <Reservation>
-            <Avator src={avator} width="20px" height="20px" />
-            <ReservationItem>Aanna Zoe</ReservationItem>
+            <Avator src={anna} width="30px" height="30px" />
+            <ReservationItem fontWeight={700}>Anna Zoe</ReservationItem>
             <Button padding="2px" height="20px">
               Dentist
             </Button>
-            <ReservationItem textAlign="center">1542</ReservationItem>
+            <ReservationItem fontWeight={700} textAlign="center">
+              1542
+            </ReservationItem>
           </Reservation>
           <Hr />
           <Reservation>
-            <Avator src={avator} width="20px" height="20px" />
-            <ReservationItem>John Smith</ReservationItem>
+            <Avator src={mike} width="30px" height="30px" />
+            <ReservationItem fontWeight={700}>John Smith</ReservationItem>
             <Button padding="2px" height="20px">
               Surgeon
             </Button>
-            <ReservationItem textAlign="center">1287</ReservationItem>
+            <ReservationItem fontWeight={700} textAlign="center">
+              1287
+            </ReservationItem>
           </Reservation>
           <Hr />
           <Reservation>
-            <Avator src={avator} width="20px" height="20px" />
-            <ReservationItem>Joe Bass</ReservationItem>
+            <Avator src={lizzy} width="30px" height="30px" />
+            <ReservationItem fontWeight={700}>Joe Bass</ReservationItem>
             <Button padding="2px" height="20px">
               Internist
             </Button>
-            <ReservationItem textAlign="center">1023</ReservationItem>
+            <ReservationItem fontWeight={700} textAlign="center">
+              1023
+            </ReservationItem>
           </Reservation>
         </SpecialistsCard>
       </div>
@@ -66,7 +75,7 @@ const BottomComponent = () => {
       </div>
       <div style={{ marginLeft: "20px" }}>
         <TopServicesCard marginTop="30px" width="110px">
-          <Avator src={charater2} width="100px" height="100px" />
+          <Avator src={charater2} width="130px" height="100px" />
           <Title color="black">Consultation</Title>
           <Info>Schedule a doctor visit</Info>
         </TopServicesCard>

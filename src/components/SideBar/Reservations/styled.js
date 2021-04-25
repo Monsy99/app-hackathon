@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ReservationsCard = styled.div`
   border: none;
@@ -19,6 +19,11 @@ export const Reservation = styled.div`
 export const ReservationItem = styled.div`
   flex: 1;
   text-align: ${({ textAlign }) => textAlign};
+  ${({ fontWeight }) =>
+    fontWeight &&
+    css`
+      font-weight: ${fontWeight};
+    `}
 `;
 
 export const Button = styled.button`
