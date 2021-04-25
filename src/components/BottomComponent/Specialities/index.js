@@ -15,6 +15,7 @@ import arrowDown from "../../../images/arrowDown.svg";
 import charater1 from "../../../images/character1.svg";
 import charater2 from "../../../images/character2.svg";
 import charater3 from "../../../images/character3.svg";
+import character4 from "../../../images/character4.svg";
 import anna from "../../../images/anna.svg";
 import mike from "../../../images/mike.svg";
 import lizzy from "../../../images/lizzy.svg";
@@ -89,6 +90,13 @@ const BottomComponent = () => {
           <Avator src={charater3} width="100px" height="100px" />
           <Title color="black">Knitting Lessons</Title>
           <Info>Learn how to craft clothes</Info>
+        </TopServicesCard>
+      </div>
+      <div style={{ marginLeft: "20px" }}>
+        <TopServicesCard marginTop="30px" width="140px">
+          <Avator src={character4} width="100px" height="100px" />
+          <Title color="black">Dentist</Title>
+          <Info>Schedule a teeth check</Info>
         </TopServicesCard>
       </div>
     </BottomComponentWrapper>
