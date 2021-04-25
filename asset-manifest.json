@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/app-hackathon/static/js/main.551ae404.chunk.js",
-    "main.js.map": "/app-hackathon/static/js/main.551ae404.chunk.js.map",
+    "main.js": "/app-hackathon/static/js/main.dc568d97.chunk.js",
+    "main.js.map": "/app-hackathon/static/js/main.dc568d97.chunk.js.map",
     "runtime-main.js": "/app-hackathon/static/js/runtime-main.60731e3a.js",
     "runtime-main.js.map": "/app-hackathon/static/js/runtime-main.60731e3a.js.map",
     "static/js/2.d97527a9.chunk.js": "/app-hackathon/static/js/2.d97527a9.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/Reservations.d10db8fa.svg": "/app-hackathon/static/media/Reservations.d10db8fa.svg",
     "static/media/anna.858210eb.svg": "/app-hackathon/static/media/anna.858210eb.svg",
     "static/media/annas.cd3ae0b5.svg": "/app-hackathon/static/media/annas.cd3ae0b5.svg",
+    "static/media/arrowDown.e0992756.svg": "/app-hackathon/static/media/arrowDown.e0992756.svg",
     "static/media/avator.98b591c5.svg": "/app-hackathon/static/media/avator.98b591c5.svg",
     "static/media/banner.109f939d.svg": "/app-hackathon/static/media/banner.109f939d.svg",
     "static/media/character1.381f835b.svg": "/app-hackathon/static/media/character1.381f835b.svg",
@@ -35,11 +36,11 @@
     "static/media/option.4280dd69.svg": "/app-hackathon/static/media/option.4280dd69.svg",
     "static/media/reservationsIcon.7cfd4d6d.svg": "/app-hackathon/static/media/reservationsIcon.7cfd4d6d.svg",
     "static/media/reservationsWhite.ea62f944.svg": "/app-hackathon/static/media/reservationsWhite.ea62f944.svg",
+    "static/media/senzen.8a98cc99.svg": "/app-hackathon/static/media/senzen.8a98cc99.svg",
     "static/media/service.cee0a83f.svg": "/app-hackathon/static/media/service.cee0a83f.svg",
     "static/media/services.ba55c905.svg": "/app-hackathon/static/media/services.ba55c905.svg",
     "static/media/servicesWhite.cfe4d958.svg": "/app-hackathon/static/media/servicesWhite.cfe4d958.svg",
     "static/media/settings.f9c5a24f.svg": "/app-hackathon/static/media/settings.f9c5a24f.svg",
-    "static/media/silverCircle.c8428960.svg": "/app-hackathon/static/media/silverCircle.c8428960.svg",
     "static/media/user.6328b52a.svg": "/app-hackathon/static/media/user.6328b52a.svg",
     "static/media/venue1.cd3fe03a.svg": "/app-hackathon/static/media/venue1.cd3fe03a.svg",
     "static/media/venue2.520ffad3.svg": "/app-hackathon/static/media/venue2.520ffad3.svg",
@@ -49,6 +50,6 @@
   "entrypoints": [
     "static/js/runtime-main.60731e3a.js",
     "static/js/2.d97527a9.chunk.js",
-    "static/js/main.551ae404.chunk.js"
+    "static/js/main.dc568d97.chunk.js"
   ]
 }
