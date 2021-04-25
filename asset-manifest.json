@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/app-hackathon/static/js/main.9b189654.chunk.js",
-    "main.js.map": "/app-hackathon/static/js/main.9b189654.chunk.js.map",
+    "main.js": "/app-hackathon/static/js/main.03f5e6a5.chunk.js",
+    "main.js.map": "/app-hackathon/static/js/main.03f5e6a5.chunk.js.map",
     "runtime-main.js": "/app-hackathon/static/js/runtime-main.60731e3a.js",
     "runtime-main.js.map": "/app-hackathon/static/js/runtime-main.60731e3a.js.map",
     "static/js/2.d97527a9.chunk.js": "/app-hackathon/static/js/2.d97527a9.chunk.js",
@@ -40,11 +40,15 @@
     "static/media/servicesWhite.cfe4d958.svg": "/app-hackathon/static/media/servicesWhite.cfe4d958.svg",
     "static/media/settings.f9c5a24f.svg": "/app-hackathon/static/media/settings.f9c5a24f.svg",
     "static/media/silverCircle.c8428960.svg": "/app-hackathon/static/media/silverCircle.c8428960.svg",
-    "static/media/user.6328b52a.svg": "/app-hackathon/static/media/user.6328b52a.svg"
+    "static/media/user.6328b52a.svg": "/app-hackathon/static/media/user.6328b52a.svg",
+    "static/media/venue1.522e0c01.svg": "/app-hackathon/static/media/venue1.522e0c01.svg",
+    "static/media/venue2.39185204.svg": "/app-hackathon/static/media/venue2.39185204.svg",
+    "static/media/venue3.95912d6b.svg": "/app-hackathon/static/media/venue3.95912d6b.svg",
+    "static/media/venue4.f8e80ffd.svg": "/app-hackathon/static/media/venue4.f8e80ffd.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.60731e3a.js",
     "static/js/2.d97527a9.chunk.js",
-    "static/js/main.9b189654.chunk.js"
+    "static/js/main.03f5e6a5.chunk.js"
   ]
 }
