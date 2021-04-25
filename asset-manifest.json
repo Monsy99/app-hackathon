@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/app-hackathon/static/js/main.dc568d97.chunk.js",
-    "main.js.map": "/app-hackathon/static/js/main.dc568d97.chunk.js.map",
+    "main.js": "/app-hackathon/static/js/main.b3ed3801.chunk.js",
+    "main.js.map": "/app-hackathon/static/js/main.b3ed3801.chunk.js.map",
     "runtime-main.js": "/app-hackathon/static/js/runtime-main.60731e3a.js",
     "runtime-main.js.map": "/app-hackathon/static/js/runtime-main.60731e3a.js.map",
     "static/js/2.d97527a9.chunk.js": "/app-hackathon/static/js/2.d97527a9.chunk.js",
@@ -37,7 +37,7 @@
     "static/media/reservationsIcon.7cfd4d6d.svg": "/app-hackathon/static/media/reservationsIcon.7cfd4d6d.svg",
     "static/media/reservationsWhite.ea62f944.svg": "/app-hackathon/static/media/reservationsWhite.ea62f944.svg",
     "static/media/senzen.8a98cc99.svg": "/app-hackathon/static/media/senzen.8a98cc99.svg",
-    "static/media/service.cee0a83f.svg": "/app-hackathon/static/media/service.cee0a83f.svg",
+    "static/media/service.cfdde176.svg": "/app-hackathon/static/media/service.cfdde176.svg",
     "static/media/services.ba55c905.svg": "/app-hackathon/static/media/services.ba55c905.svg",
     "static/media/servicesWhite.cfe4d958.svg": "/app-hackathon/static/media/servicesWhite.cfe4d958.svg",
     "static/media/settings.f9c5a24f.svg": "/app-hackathon/static/media/settings.f9c5a24f.svg",
@@ -50,6 +50,6 @@
   "entrypoints": [
     "static/js/runtime-main.60731e3a.js",
     "static/js/2.d97527a9.chunk.js",
-    "static/js/main.dc568d97.chunk.js"
+    "static/js/main.b3ed3801.chunk.js"
   ]
 }
