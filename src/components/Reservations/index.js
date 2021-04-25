@@ -4,6 +4,16 @@ import { MainContainer } from "../MainContainer";
 import { Menu } from "../Menu";
 import { Container } from "../Container";
 import avator from "../../images/avator.svg";
+import anna from "../../images/anna.svg";
+import george from "../../images/george.svg";
+import mike from "../../images/mike.svg";
+import james from "../../images/james.svg";
+import annas from "../../images/annas.svg";
+import lizzy from "../../images/lizzy.svg";
+import venue1 from "../../images/venue1.svg";
+import venue2 from "../../images/venue2.svg";
+import venue3 from "../../images/venue3.svg";
+import venue4 from "../../images/venue4.svg";
 import reservations from "../../images/Reservations.svg";
 import {
   Avator,
@@ -16,6 +26,14 @@ import {
   SideBarContainer,
   Title,
 } from "../SideBar/styled";
+import {
+  Button,
+  Reservation,
+  ReservationItem,
+  ReservationsCard,
+} from "../SideBar/Reservations/styled";
+import { Label, LabelWrapper } from "../Services/styled";
+import { Flex, VenueCard, VenuesWrapper } from "./styled";
 
 export const Reservations = () => {
   return (
@@ -32,6 +50,20 @@ export const Reservations = () => {
         <Container>
           <img alt="reservations table" width={"100%"} src={reservations}></img>
         </Container>
+        <Flex>
+          <Label>
+            <Info>Your venues</Info>
+          </Label>
+          <Label textAlign="right">
+            <Info>Show all</Info>
+          </Label>
+        </Flex>
+        <VenuesWrapper>
+          <VenueCard src={venue1}></VenueCard>
+          <VenueCard src={venue2}></VenueCard>
+          <VenueCard src={venue3}></VenueCard>
+          <VenueCard src={venue4}></VenueCard>
+        </VenuesWrapper>
       </MainComponentWrapper>
       <SideBarContainer>
         <LogoContainer>
@@ -61,6 +93,61 @@ export const Reservations = () => {
           </ReportItem>
           <Hr />
         </DailyReport>
+        <Info>Live reservations</Info>
+        <ReservationsCard marginTop="10px">
+          <Reservation>
+            <ReservationItem textAlign="left">Name</ReservationItem>
+            <ReservationItem textAlign="right">Revenue</ReservationItem>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={anna} width="20px" height="20px" />
+            <ReservationItem>Anna Zoe</ReservationItem>
+            <Figure small color="green">
+              + &#163; 4432
+            </Figure>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={george} width="20px" height="20px" />
+            <ReservationItem>George Joy</ReservationItem>
+            <Figure small color="green">
+              + &#163; 332
+            </Figure>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={mike} width="20px" height="20px" />
+            <ReservationItem>Mike May</ReservationItem>
+            <Figure small color="green">
+              + &#163; 1299
+            </Figure>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={james} width="20px" height="20px" />
+            <ReservationItem>James May</ReservationItem>
+            <Figure small color="green">
+              + &#163; 881
+            </Figure>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={annas} width="20px" height="20px" />
+            <ReservationItem>Anna Smith</ReservationItem>
+            <Figure small color="green">
+              + &#163; 4432
+            </Figure>
+          </Reservation>
+          <Hr />
+          <Reservation>
+            <Avator src={lizzy} width="20px" height="20px" />
+            <ReservationItem>Lizzy Page</ReservationItem>
+            <Figure small color="green">
+              + &#163; 4009
+            </Figure>
+          </Reservation>
+        </ReservationsCard>
       </SideBarContainer>
     </MainContainer>
   );

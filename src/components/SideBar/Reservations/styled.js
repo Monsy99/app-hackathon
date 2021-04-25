@@ -11,6 +11,7 @@ export const ReservationsCard = styled.div`
 
 export const Reservation = styled.div`
   display: flex;
+  align-items: center;
   flex-direction: row;
   line-height: 30px;
 `;
@@ -24,7 +25,7 @@ export const Button = styled.button`
   flex: 1;
   text-align: center;
   border-radius: 10px;
-  padding: ${({ padding }) => padding}
+  padding: ${({ padding }) => padding};
   border: none;
   cursor: pointer;
   width: ${({ width }) => width};

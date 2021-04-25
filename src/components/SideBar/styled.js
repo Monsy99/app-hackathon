@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import logo from "../../images/logo.svg";
 
 export const SideBarContainer = styled.div`
@@ -71,4 +71,10 @@ export const Figure = styled.div`
   font-size: 24px;
   color: ${({ theme, color }) =>
     color ? theme.colors[color] : theme.colors.black};
+  ${({ small }) =>
+    small &&
+    css`
+      font-size: 14px;
+      line-height: 16px;
+    `}
 `;
