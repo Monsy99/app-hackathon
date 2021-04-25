@@ -21,7 +21,7 @@ const SideBar = () => {
         <Logo />
         <Avator src={avator} width="45px" height="45px" />
       </LogoContainer>
-      <DailyReport marginTop="50px">
+      <DailyReport marginTop="50px" alignItems="center" justifyContent="center">
         <Title>Daily report</Title>
         <Hr />
         <ReportItem>

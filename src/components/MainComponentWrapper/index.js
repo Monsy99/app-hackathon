@@ -7,4 +7,5 @@ export const MainComponentWrapper = styled.div`
     "serv serv";
   margin: 45px 30px 0 30px;
   border-radius: 25px;
+  overflow: hidden;
 `;
