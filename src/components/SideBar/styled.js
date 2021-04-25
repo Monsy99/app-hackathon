@@ -30,7 +30,7 @@ export const Logo = styled.div`
 export const Avator = styled.img`
   height: ${({ height }) => height};
   width: ${({ width }) => width};
-  margin-right: 5px;
+  margin-right: ${({ marginRight }) => (marginRight ? marginRight : `5px`)};
 `;
 
 export const DailyReport = styled.div`
