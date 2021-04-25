@@ -11,12 +11,14 @@ export const LogoContainer = styled.div`
   padding: 5px;
   border-radius: 10px;
   height: 50px;
+  width: 300px;
   line-height: 35px;
   background-image: url(${logo});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: flex-end;
+  justify-content: flex-end;
   background-color: ${({ theme }) => theme.colors.white};
 `;
 
@@ -30,7 +32,8 @@ export const Logo = styled.div`
 export const Avator = styled.img`
   height: ${({ height }) => height};
   width: ${({ width }) => width};
-  margin-right: 5px;
+  margin-right: ${({ marginRight }) => (marginRight ? marginRight : `5px`)};
+  margin-top: ${({ marginTop }) => marginTop};
 `;
 
 export const DailyReport = styled.div`
