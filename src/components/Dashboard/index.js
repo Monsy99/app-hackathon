@@ -3,8 +3,9 @@ import { MainComponentWrapper } from "../MainComponentWrapper";
 import { MainContainer } from "../MainContainer";
 import { Menu } from "../Menu";
 import fakechart from "../../images/Frame.svg";
-import { Greeting, Header, Info, Input } from "./styled";
+import { Greeting, Header, Image, Info, Input } from "./styled";
 import SideBar from "../SideBar/index";
+import BottomComponent from "../BottomComponent/Specialities";
 
 export const Dashboard = () => {
   return (
@@ -19,8 +20,9 @@ export const Dashboard = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container gridArea="dash">
-          <img width={"100%"} src={fakechart} />
+          <Image width="100%" src={fakechart} />
         </Container>
+        <BottomComponent />
       </MainComponentWrapper>
       <SideBar />
     </MainContainer>

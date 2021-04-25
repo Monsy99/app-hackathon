@@ -34,3 +34,7 @@ export const Input = styled.input`
     color: ${({ theme }) => theme.colors.scorpion};
   }
 `;
+
+export const Image = styled.img`
+  width: 100%;
+`;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ReservationsCard = styled.div`
   border: none;
-  padding: 10px;
+  padding: 20px;
   border-radius: 24px;
   margin-top: ${({ marginTop }) => marginTop};
   margin-bottom: 20px;
@@ -24,9 +24,12 @@ export const Button = styled.button`
   flex: 1;
   text-align: center;
   border-radius: 10px;
-  padding: 5px 30px 5px 30px;
+  padding: ${({ padding }) => padding}
   border: none;
   cursor: pointer;
+  width: ${({ width }) => width};
+  height: ${({ height }) => height};
   color: ${({ theme }) => theme.colors.white};
+  font-weight: bold;
   background-color: ${({ theme }) => theme.colors.blue};
 `;

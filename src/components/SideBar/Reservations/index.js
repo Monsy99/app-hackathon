@@ -31,8 +31,9 @@ const Reservations = () => {
       <Hr />
       <Reservation>
         <ReservationItem />
-        <ReservationItem />
-        <Button>Show all</Button>
+        <Button padding="5px" width="100px" height="30px">
+          Show all
+        </Button>
       </Reservation>
     </ReservationsCard>
   );

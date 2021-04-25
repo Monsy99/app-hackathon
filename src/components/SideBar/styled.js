@@ -36,8 +36,8 @@ export const Avator = styled.img`
 export const DailyReport = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: ${(alignItems) => alignItems};
+  justify-content: ${(justifyContent) => justifyContent};
   border: none;
   padding: 10px;
   border-radius: 24px;

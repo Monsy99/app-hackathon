@@ -30,11 +30,7 @@ export const Reservations = () => {
           <Input placeholder="Search for service"></Input>
         </Header>
         <Container>
-          <img
-            alt="reservations table"
-            width={"1000px"}
-            src={reservations}
-          ></img>
+          <img alt="reservations table" width={"100%"} src={reservations}></img>
         </Container>
       </MainComponentWrapper>
       <SideBarContainer>
@@ -42,7 +38,11 @@ export const Reservations = () => {
           <Logo />
           <Avator src={avator} />
         </LogoContainer>
-        <DailyReport>
+        <DailyReport
+          marginTop="50px"
+          alignItems="center"
+          justifyConent="center"
+        >
           <Title>Daily summary</Title>
           <Hr />
           <ReportItem>
